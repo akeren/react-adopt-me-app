@@ -1,1 +1,1 @@
-# Animal Adoption App built with React
+# Domestic Animals Adoption App built with React
