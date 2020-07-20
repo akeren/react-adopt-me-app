@@ -1,21 +1,21 @@
-import { createElement } from "react";
+import React from "react";
 import { render } from "react-dom";
 import { Pet } from "./Pet";
 
 const App = () => {
-  return createElement("div", {}, [
-    createElement("h1", {}, "Adopt me"),
-    createElement(Pet, {
+  return React.createElement("div", {}, [
+    React.createElement("h1", {}, "Adopt me"),
+    React.createElement(Pet, {
       name: "Luna",
       animal: "Dog",
       breed: "Havanese",
     }),
-    createElement(Pet, {
+    React.createElement(Pet, {
       name: "Pepper",
       animal: "Bird",
       breed: "Cockatiel",
     }),
-    createElement(Pet, {
+    React.createElement(Pet, {
       name: "Doink",
       animal: "Cat",
       breed: "Mixed",
@@ -23,4 +23,4 @@ const App = () => {
   ]);
 };
 
-render(createElement(App), document.getElementById("root"));
+render(React.createElement(App), document.getElementById("root"));
