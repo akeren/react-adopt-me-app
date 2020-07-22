@@ -1,1 +1,1 @@
-# Domestic Animals Adoption App built with React
+# Domestic Animals :dog: :cow: :cat: Adoption App built with React
